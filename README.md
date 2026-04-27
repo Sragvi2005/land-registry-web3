@@ -55,3 +55,21 @@ After setting the variable, you can run the deployment with the Sepolia network:
 ```shell
 npx hardhat ignition deploy --network sepolia ignition/modules/Counter.ts
 ```
+
+
+How Your Teammates Join
+Once you add them as Collaborators in the GitHub repository settings, they just need to do this on their MacBooks/PCs:
+
+Clone the code:
+
+Bash
+git clone https://github.com/YOUR_USERNAME/land-registry-web3.git
+cd land-registry-web3
+Install Dependencies: (This is why we didn't upload node_modules)
+
+Bash
+npm install --legacy-peer-deps
+Compile:
+
+Bash
+npx hardhat compile
