@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f3f4f6; /* Light gray background standard for gov sites */
+    color: #111827; /* Dark slate text */
+}
+
+/* Official Authority Panels */
+.official-panel {
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Inputs */
+.input-styled {
+    background-color: #ffffff;
+    border: 1px solid #9ca3af;
+    color: #111827;
+    border-radius: 0.25rem;
+    transition: all 0.3s ease;
+}
+.input-styled:focus {
+    border-color: #1d4ed8;
+    box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.2);
+    outline: none;
+}
+
+/* Official Buttons */
+.btn-official {
+    background-color: #1e3a8a; /* Deep Navy Blue */
+    color: #ffffff;
+    transition: background-color 0.2s ease;
+}
+.btn-official:hover {
+    background-color: #1e40af;
+}
+
+.gov-banner {
+    background-color: #111827;
+    color: #f9fafb;
+}
+
+.serif-text {
+    font-family: 'Merriweather', serif;
+}
